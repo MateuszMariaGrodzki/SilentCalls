@@ -19,3 +19,4 @@
 | `Refactor:`|    Refactoring code    | `Refactor: Refactored register service`         |
 |  `Test:`   |     Addint tests       | `Test: Add test for cookie service`             |
 |  `Docs:`   |  Update documentation  | `Docs: Add documentation for register form`     |
+
