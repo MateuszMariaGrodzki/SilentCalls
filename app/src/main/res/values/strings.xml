@@ -2,4 +2,6 @@
     <string name="app_name">SilentCalls</string>
     <string name="start">Start</string>
     <string name="about">About</string>
+    <string name="numberFromKeyboard">Enter number from keyboard</string>
+    <string name="numberFromContacts">Choose number from contacts</string>
 </resources>
