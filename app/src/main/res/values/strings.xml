@@ -4,4 +4,5 @@
     <string name="about">About</string>
     <string name="numberFromKeyboard">Enter number from keyboard</string>
     <string name="numberFromContacts">Choose number from contacts</string>
+    <string name="make_call">Make Call</string>
 </resources>
