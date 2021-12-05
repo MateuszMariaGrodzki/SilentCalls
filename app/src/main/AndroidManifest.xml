@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SilentCalls">
         <activity
+            android:name=".PhoneCallActivity"
+            android:exported="false" />
+        <activity
             android:name=".ManualOrContactsActivity"
             android:exported="false" />
         <activity
