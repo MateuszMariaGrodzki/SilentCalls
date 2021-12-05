@@ -2,6 +2,7 @@ package com.example.silentcalls;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,7 +10,7 @@ import android.widget.Toast;
 
 public class ManualOrContactsActivity extends AppCompatActivity {
 
-    Button chooseFromContacts;
+    Button chooseFromContacts, enterNumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,9 +24,17 @@ public class ManualOrContactsActivity extends AppCompatActivity {
                 Toast.makeText(ManualOrContactsActivity.this,"Not yet implemented",Toast.LENGTH_SHORT).show();
             }
         });
+        enterNumber.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ManualOrContactsActivity.this,PhoneCallActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void initButtons(){
         chooseFromContacts = findViewById(R.id.btnChooseFromContacts);
+        enterNumber = findViewById(R.id.btnEnterNumber);
     }
 }
