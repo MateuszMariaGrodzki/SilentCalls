@@ -68,7 +68,7 @@ public class ContactListActivity extends AppCompatActivity {
             cursor.close();
         }
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerVAdapter = new RecyclerVAdapter(this,contactModels);
+        recyclerVAdapter = new RecyclerVAdapter(this,contactModels,this);
         recyclerView.setAdapter(recyclerVAdapter);
     }
 
