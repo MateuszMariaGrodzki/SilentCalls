@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/person_image"
+        android:src="@drawable/ic_baseline_person_24"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/contactName"
+        android:layout_toRightOf="@id/person_image"
+        android:gravity="center_vertical|left"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/contactNumber"
+        android:layout_toRightOf="@id/person_image"
+        android:layout_below="@id/contactName"
+        android:layout_marginStart="40dp"
+        android:paddingBottom="10dp"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

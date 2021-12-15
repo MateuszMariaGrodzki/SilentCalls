@@ -21,7 +21,8 @@ public class ManualOrContactsActivity extends AppCompatActivity {
         chooseFromContacts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(ManualOrContactsActivity.this,"Not yet implemented",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(ManualOrContactsActivity.this,ContactListActivity.class);
+                startActivity(intent);
             }
         });
         enterNumber.setOnClickListener(new View.OnClickListener() {
