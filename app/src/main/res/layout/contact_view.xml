@@ -5,8 +5,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="15dp"
         android:id="@+id/person_image"
         android:src="@drawable/ic_baseline_person_24"/>
 
@@ -15,10 +16,10 @@
         android:layout_height="60dp"
         android:id="@+id/contactName"
         android:layout_toRightOf="@id/person_image"
+        android:layout_toLeftOf="@id/make_phone_call"
         android:gravity="center_vertical|left"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_marginStart="40dp"
         android:paddingBottom="10dp"
         android:paddingTop="10dp"/>
 
@@ -27,9 +28,17 @@
         android:layout_height="40dp"
         android:id="@+id/contactNumber"
         android:layout_toRightOf="@id/person_image"
+        android:layout_toLeftOf="@id/make_phone_call"
         android:layout_below="@id/contactName"
-        android:layout_marginStart="40dp"
         android:paddingBottom="10dp"
         android:textSize="15sp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/make_phone_call"
+        android:src="@drawable/ic_baseline_local_phone_24"
+        android:layout_alignParentRight="true"
+        android:layout_margin="25dp"/>
 
 </RelativeLayout>
