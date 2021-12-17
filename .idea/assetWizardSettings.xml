@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/person/baseline_person_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/local_phone/baseline_local_phone_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,8 +28,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="8d8a8a" />
-                            <entry key="outputName" value="ic_baseline_person_24" />
+                            <entry key="color" value="11ca11" />
+                            <entry key="outputName" value="ic_baseline_local_phone_24" />
                             <entry key="sourceFile" value="C:\Users\ICSP\AndroidStudioProjects\SilentCalls" />
                           </map>
                         </option>
