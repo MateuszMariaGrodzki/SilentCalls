@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneCallActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/mainphoto"
+        android:src="@drawable/phone"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="80dp"/>
+
+    <EditText
+        android:id="@+id/edTextPhoneNumber"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="number"
+        android:hint="Enter phone number here"
+        android:textAlignment="center"
+        android:layout_toRightOf="@id/mainphoto"
+        android:layout_alignTop="@id/mainphoto"
+        android:layout_marginLeft="100dp"/>
+
+    <Button
+        android:id="@+id/btnMakeCall"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:text="@string/make_call"
+        android:layout_toRightOf="@id/mainphoto"
+        android:layout_alignBottom="@id/mainphoto"
+        android:layout_marginLeft="100dp"/>
+
+</RelativeLayout>
