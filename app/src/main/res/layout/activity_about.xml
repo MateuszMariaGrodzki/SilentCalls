@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_author"
+        android:text="@string/author"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:id="@+id/app_description"
+        android:text="@string/application_description"
+        android:textSize="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/app_author"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/im_github"
+        android:src="@drawable/ic_github"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/app_description"
+        android:layout_alignStart="@id/app_description"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/im_linkedin"
+        android:src="@drawable/ic_linkedin"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@id/app_description"
+        android:layout_alignEnd="@id/app_description"/>
+
+</RelativeLayout>
