@@ -35,5 +35,5 @@
   <img src="./img/callPortrait.jpg" width="200">
 </p>
 <p align="center">
-  <img src ="./img/callLandscape.jpg" height="343,5">
+  <img src ="./img/callLandscape.jpg" height="200">
 </p>
