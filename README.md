@@ -20,7 +20,7 @@
 
 > * Choose manual/contacts page
 <p align="center">
-  <img src="./img/aboutPortrait.jpg" width="200">
+  <img src="./img/choosePortrait.jpg" width="200">
 </p>
 <p align="center">
   <img src ="./img/chooseLandscape.jpg" height="200">
