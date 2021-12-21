@@ -3,7 +3,7 @@
 ### Platform: Android
 ### Screenshots: 
 > * Main page:
-![alt text](./img/mainPortrait.jpg)![alt text](./img/mainLandscape.jpg)
+![alt text](./img/mainPortrait.jpg | width = 90)![alt text](./img/mainLandscape.jpg)
 > * About page:
 ![alt text](./img/aboutPortrait.jpg)![alt text](./img/aboutLandscape.jpg)
 > * Choose manual/contacts page
