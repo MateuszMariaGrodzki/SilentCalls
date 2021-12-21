@@ -3,13 +3,12 @@
 ### Platform: Android
 ### Screenshots: 
 > * Main page:
-> <img src="./img/mainPortrait.jpg" width="100">
-![alt text](./img/mainLandscape.jpg)
+<img src="./img/mainPortrait.jpg" width="200">&nbsp;&nbsp;&nbsp;<img src ="./img/mainLandscape.jpg" width="200">
 > * About page:
-![alt text](./img/aboutPortrait.jpg)![alt text](./img/aboutLandscape.jpg)
+<img src="./img/aboutPortrait.jpg" width="200">&nbsp;&nbsp;&nbsp;<img src ="./img/aboutLandscape.jpg" width="200">
 > * Choose manual/contacts page
-![alt text](./img/choosePortrait.jpg)![alt text](./img/chooseLandscape.jpg)
+<img src="./img/aboutPortrait.jpg" width="200">&nbsp;&nbsp;&nbsp;<img src ="./img/chooseLandscape.jpg" width="200">
 > * Contact list display
-![alt text](./img/contactsPortrait.jpg)![alt text](./img/contactsLandscape.jpg)
+<img src="./img/contactsPortrait.jpg" width="200">&nbsp;&nbsp;&nbsp;<img src ="./img/contactsLandscape.jpg" width="200">
 > * Enter number page
-![alt text](./img/callPortrait.jpg)![alt text](./img/callLandscape.jpg)
+<img src="./img/callPortrait.jpg" width="200">&nbsp;&nbsp;&nbsp;<img src ="./img/callLandscape.jpg" width="200">
