@@ -5,4 +5,7 @@
     <string name="numberFromKeyboard">Enter number from keyboard</string>
     <string name="numberFromContacts">Choose number from contacts</string>
     <string name="make_call">Make Call</string>
+    <string name="application_description">Silent calls is an application that allows you to restrict a number while making a phone call.
+    You can enter the number manually or select if from your contacts.</string>
+    <string name="author">Author: Mateusz Grodzki</string>
 </resources>

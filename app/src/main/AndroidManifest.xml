@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SilentCalls">
         <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
             android:name=".ContactListActivity"
             android:exported="false" />
         <activity

@@ -28,9 +28,10 @@
                         </option>
                         <option name="values">
                           <map>
+                            <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="11ca11" />
-                            <entry key="outputName" value="ic_baseline_local_phone_24" />
-                            <entry key="sourceFile" value="C:\Users\ICSP\AndroidStudioProjects\SilentCalls" />
+                            <entry key="outputName" value="ic_github" />
+                            <entry key="sourceFile" value="C:\Users\ICSP\Downloads\github-vector-logo-EBF53C5506-seeklogo.com\github-seeklogo.com.svg" />
                           </map>
                         </option>
                       </PersistentState>
